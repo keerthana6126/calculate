@@ -3,8 +3,15 @@ def add_numbers(a, b):
 num1 = 10
 num2 = 20
 
-result = add_numbers(num1, num2)
+result1 = add_numbers(num1, num2)
 
-print(result)
+print(result1)
 
-print("Hello World")
+def add_numbers(a, b):
+    return a - b
+num1 = 10
+num2 = 20
+
+result2 = add_numbers(num1, num2)
+
+print(result2)
